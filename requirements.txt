@@ -1,14 +1,14 @@
+
 # General
-telethon==1.19.5
-pyrogram>=1.0.7
-aiogram == 2.13
+telethon
+pyrogram
+aiogram
 
 # DBs
 redis
-aioredis==1.3.0 # Redis memery storage fom aiogram
-pymongo
+aioredis # Redis memery storage from aiogram
+pymongo==3.12.1
 motor
-odmantic # MongoDB ORM
 sqlalchemy==1.3.20 # For old modules
 dnspython # needed to connect to cloud MongoDB instances
 
@@ -28,6 +28,7 @@ python-rapidjson
 PyYAML>5.0
 coloredlogs
 loguru
+# contextlib
 babel
 captcha
 async-timeout
@@ -70,7 +71,6 @@ bs4
 html2text
 bing_image_downloader 
 search_engine_parser
-pornhub_api
 youtube_search
 
 #Memes
@@ -117,10 +117,10 @@ Python_ARQ
 googletrans==4.0.0-rc1
 pyromod
 aiofiles
-pygithub
+odmantic
 
+
+# Lol
+Skem==0.3.1
 tzlocal==2.0
-yt_dlp
-
-
 
